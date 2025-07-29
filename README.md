@@ -145,6 +145,8 @@ Em suma, o Servidor CI/CD conseguiu alertar, de maneira automática, que existe 
 ## Tarefa #3: Criando um Pull Request (PR) com a correção
 
 Coloque um valor aceitável para o código do teste. Para isso, coloque agora o valor 26.0 na função `Test` do arquivo test.c. Por exemplo, basta alterar a linha 15, colocando o valor para 26.0, como apresentado abaixo.
+Retorne com um valor aceitável para o código do teste. Para isso, coloque novamente o valor 26.0 na função `Test` do arquivo [experiment-ci-cd/blob/main/test/test.c](https://github.com/parrera/experiment-ci-cd/blob/main/test/test.c). Por exemplo, basta alterar a linha 12, retornando com o valor para 26.0, como apresentado abaixo.
+
 
 ```diff
 Test(suite_name, test_name){
